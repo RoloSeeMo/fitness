@@ -9,9 +9,9 @@ if(empty($_POST['name'])  ||
     $errors .= "\n Error: all fields are required";
 }
 
-$name = $_POST['name']; 
-$email_address = $_POST['email']; 
-$message = $_POST['message']; 
+$name = $_POST['name'];
+$email_address = $_POST['email'];
+$message = $_POST['message'];
 
 if (!preg_match(
 "/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,3})$/i", 
