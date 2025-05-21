@@ -21,13 +21,35 @@
 </head>
 
 
-<body>
+<Chapter1 id="Chapter1">
     <h1><center>Chapter 1:</center></h1>
-    <h2><center>Semblance</center></h2>
+    <span><h2><center>Semblance</center></h2></span>
 
     <h2><center><span style="font-size:300%; font-family: 'Gill sans';" >T</span>he first thing I realize about</center></h2>
-    <footer>
-        Page 1  2  3 
-    </footer>
-</body>
+    
+</Chapter1>
+
+<Chapter2 id="Chapter2">
+<h1><center>Chapter 2:</center></h1>
+    <span><h2><center>Grime</center></h2></span>
+
+    <h2><center><span style="font-size:300%; font-family: 'Gill sans';" >T</span>his is chapter 2...</center></h2
+</Chapter2>
+
+<script>
+    let curChpt = 1;
+    function changeChpt(ChapChoice){
+        let curChpt = ChapChoice
+        if (curChpt == 1){
+            document.getElementById('Chapter2').style.display = "none";
+        }else if (){
+        
+        }
+    }
+</script>
+
+<footer>
+    Page  <button onclick="changeChpt(1)">1</button> , <button onclick="changeChpt(2)">2</button>
+</footer>
+
 </html>
