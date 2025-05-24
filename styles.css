@@ -90,6 +90,10 @@ CSS STRUCTURE:
   box-sizing: border-box;
 }
 
+header{
+  text-align: center;
+}
+
 html{
   box-sizing: border-box;
   margin: 0;
